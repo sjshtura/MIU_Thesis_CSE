@@ -11,6 +11,15 @@ Steps:
     ''' 
     pip install -r requirements.txt
     ''' 
+    & 
+    '''
+    pip install -U langchain-community 
+    '''
+     & 
+    '''
+    pip install python-docx openai chromadb tiktoken
+    '''
+
 5. After installation all packages please create .env file in MIU_Thesis_CSE folder
 6. Put API Key in .env file
 7. Execute/run create_database.py
